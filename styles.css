@@ -28,7 +28,7 @@ body {
   background-color: #990f02;
 }
 .hero-image {
-  background: url(images/main1.jpg) no-repeat center;
+  background: url("images/main1.jpg") no-repeat center;
   background-size: cover;
   height: 400px;
   position: relative;
@@ -54,7 +54,7 @@ body {
   overflow: auto;
 }
 .gallery {
-  
+
   box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
 }
 .gallery:hover {
