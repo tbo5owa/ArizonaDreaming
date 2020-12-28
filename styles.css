@@ -28,7 +28,7 @@ body {
   background-color: #990f02;
 }
 .hero-image {
-  background: url("images/main1.jpg") no-repeat center;
+  background: url("images/main1.JPG") no-repeat center;
   background-size: cover;
   height: 400px;
   position: relative;
@@ -50,7 +50,7 @@ body {
   color: white;
 }
 .background{
-  background-image:url("images/tb3.png");
+  background-image:url("images/TB3.png");
   overflow: auto;
 }
 .gallery {
