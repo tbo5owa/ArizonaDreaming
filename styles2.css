@@ -18,7 +18,7 @@ body {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 6px;
   text-decoration: none;
   font-size:2.4vw;
 }
@@ -127,12 +127,10 @@ body {
 .paragraph h3{
   margin-left: 15px;
   color:white;
-  font-size: 50;
 }
 .paragraph dd{
   margin-left: 15px;
   color:white;
-  font-size: 50;
 }
 .paragraph a{
   color:white;
