@@ -20,6 +20,28 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size:2.6vw;
+}
+@media only screen and (min-width: 700px) {
+  .navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:3vw;
+  }
+
+}
+@media only screen and (min-width: 1100px){
+  .navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:1vw;
+  }
 }
 .navigation li a:hover:not(.first) {
   background-color: #111;
@@ -44,7 +66,7 @@ body {
 
 }
 .hero-text-main h1 {
-  padding: 20px 0px;
+  padding: 40px 0px;
   font-size:2vw
 }
 .hero-text {
@@ -64,6 +86,34 @@ body {
   background-image:url("images/TB3.png");
   overflow: auto;
 }
+.paragraph{
+  background-color:#48494B;
+  margin:20px 0;
+  box-shadow:10px 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  overflow: auto;
+  text-align: left;
+}
+.paragraph abbr{
+  text-decoration: none;
+}
+.paragraph h3{
+  color:white;
+  font-size: 1.5vw;
+}
+.paragraph dd{
+  color:white;
+  font-size: 1.5vw;
+}
+.paragraph a{
+  color:white;
+  text-decoration: none;
+}
+.paragraph img{
+  width:70%;
+  height:auto;
+  margin-right:15px;
+  float: left;
+}
 .paragraph1{
   background-color:#48494B;
   margin:20px 0;
@@ -76,45 +126,17 @@ body {
 }
 .paragraph1 h3{
   color:white;
-  font-size: 1.5vw;
+  font-size: 1.3vw;
 }
 .paragraph1 dd{
   color:white;
-  font-size: 1.5vw;
+  font-size: 1.3vw;
 }
 .paragraph1 a{
   color:white;
   text-decoration: none;
 }
 .paragraph1 img{
-  width:70%;
-  height:auto;
-  margin-right:15px;
-  float: left;
-}
-.paragraph2{
-  background-color:#48494B;
-  margin:20px 0;
-  box-shadow:10px 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
-  overflow: auto;
-  text-align: left;
-}
-.paragraph2 abbr{
-  text-decoration: none;
-}
-.paragraph2 h3{
-  color:white;
-  font-size: 1.3vw;
-}
-.paragraph2 dd{
-  color:white;
-  font-size: 1.3vw;
-}
-.paragraph2 a{
-  color:white;
-  text-decoration: none;
-}
-.paragraph2 img{
   width:70%;
   height:auto;
   margin-right:15px;
@@ -133,7 +155,7 @@ body {
   margin-right: 5vw;
   box-shadow:10px 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
 }
-.spacing1{padding-top: 1%;
+.spacing{padding-top: 1%;
   padding-right: 10%;
   padding-left: 10%;
 }

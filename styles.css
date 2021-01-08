@@ -20,7 +20,20 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size:2.6vw;
 }
+@media only screen and (min-width: 700px) {
+  .navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:3vw;
+  }
+
+}
+
 .navigation li a:hover:not(.first) {
   background-color: #111;
 }
@@ -49,6 +62,42 @@ body {
   background-image:url("images/TB3.png");
   overflow: auto;
 }
+@media screen and (max-width: 1100px) {
+  .gallery {
+    display: none;
+  }
+.responsive {
+  display:none;
+}
+.desc {
+  display: none;
+}
+.gallery1 {
+
+  box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.gallery1:hover {
+  border: 1px solid #777;
+}
+.gallery1 img {
+  width: 100%;
+  height: auto;
+}
+.gallery1 a{
+  text-decoration: none;
+}
+.desc1 {
+  padding: 15px;
+  text-align: center;
+  color: white;
+  background-color: #990f02;
+}
+.responsive1 {
+  padding: 1% 17% 1% 10%;
+  float: right;
+  width: 20%;
+}
+}
 .gallery {
   box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
 }
@@ -73,9 +122,31 @@ body {
   float: right;
   width: 20%;
 }
-.spacing{padding-top: 5px;
-  padding-right: 30%;
-  padding-left: 80px;
+@media only screen and (min-width: 1100px) {
+  .navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:1vw;
+  }
+  .gallery1 {
+    display: none;
+  }
+  .responsive1 {
+  display:none;
+  }
+  .desc1 {
+  display: none;
+  }
+
+}
+
+.spacing{
+  padding-top: 5px;
+  padding-right: 8%;
+  padding-left: 8%;
 }
 .paragraph{
   background-color:#48494B;
@@ -89,12 +160,12 @@ body {
 }
 .paragraph h3{
   color:white;
-  font-size: 1.4vw
+  font-size: 60;
 }
 
 .paragraph dd{
   color:white;
-  font-size: 1.4vw
+  font-size: 60;
 }
 .paragraph a{
   color:white;
