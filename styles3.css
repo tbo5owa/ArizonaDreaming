@@ -102,11 +102,11 @@ body {
 }
 .paragraph2 h3{
   color:white;
-  font-size: 1.4vw;
+  font-size: 1.3vw;
 }
 .paragraph2 dd{
   color:white;
-  font-size: 1.4vw;
+  font-size: 1.3vw;
 }
 .paragraph2 a{
   color:white;
@@ -147,8 +147,17 @@ body {
   float: left;
 }
 .youtube p {
-  padding-top: 1%;
+  padding-top: 2%;
   text-align: center;
+
+}
+.youtube iframe {
+  width:  50vw;
+  height: 28.125vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  box-shadow:10px 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+
 }
 .spacing1{padding-top: 1%;
   padding-right: 10%;
