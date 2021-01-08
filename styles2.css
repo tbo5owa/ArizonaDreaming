@@ -171,6 +171,7 @@ body {
   margin-left: 5vw;
   margin-right: 5vw;
   box-shadow:10px 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  border: 0;
 }
 .spacing{padding-top: 1%;
   padding-right: 10%;
