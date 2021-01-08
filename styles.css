@@ -39,6 +39,7 @@ body {
   background-color: #990f02;
 }
 .hero-image {
+  padding-top: 5%;
   background: url("images/main1.JPG") no-repeat center;
   background-size: cover;
   height: 30vw;
